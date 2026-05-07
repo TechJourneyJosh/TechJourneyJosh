@@ -143,7 +143,7 @@ python planner.py delete <event_id>
   "mcpServers": {
     "google-calendar": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-google-calendar"],
+      "args": ["-y", "@cocal/google-calendar-mcp"],
       "env": {
         "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
         "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}",
